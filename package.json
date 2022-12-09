@@ -5,6 +5,10 @@
   "main": "index.js",
   "scripts": {
     "start": "gulp"
+    "preinstall": "npx npm-force-resolutions"
+  },
+  "resolutions": {
+   "glob-parent": "^6.0.1"
   },
   "author": "colorlib",
   "license": "CC-BY-3.0",
